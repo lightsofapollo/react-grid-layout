@@ -354,6 +354,7 @@ function (_React$Component) {
         onDrag: this.onDrag,
         onStop: this.onDragStop,
         handle: this.props.handle,
+        bounds: "parent",
         cancel: ".react-resizable-handle" + (this.props.cancel ? "," + this.props.cancel : ""),
         scale: this.props.transformScale
       }, child);
